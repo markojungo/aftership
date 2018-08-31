@@ -1,0 +1,373 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/MDO/breast_implant_ontology_outer.owl"
+     xml:base="http://purl.obolibrary.org/MDO/breast_implant_ontology_outer.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:breast_implant_ontology_outer="http://purl.obolibrary.org/MDO/breast_implant_ontology_outer.owl/"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/MDO/breast_implant_ontology_outer.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/MDO/breast_implant_ontology_outer.owl/altTerm -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/MDO/breast_implant_ontology_outer.owl/altTerm"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/MDO/breast_implant_ontology_outer.owl/catalogNumber -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/MDO/breast_implant_ontology_outer.owl/catalogNumber"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/MDO/breast_implant_ontology_outer.owl/primaryDI -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/MDO/breast_implant_ontology_outer.owl/primaryDI"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/MDO/breast_implant_ontology_outer.owl/versionModelNumber -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/MDO/breast_implant_ontology_outer.owl/versionModelNumber"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#prefLabel -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#prefLabel"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/MDO/breast_implant_ontology_outer.owl/has_filling -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/MDO/breast_implant_ontology_outer.owl/has_filling">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/MDO/breast_implant_ontology_outer.owl/has_manufacturer -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/MDO/breast_implant_ontology_outer.owl/has_manufacturer">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/MDO/breast_implant_ontology_outer.owl/has_profile -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/MDO/breast_implant_ontology_outer.owl/has_profile">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/MDO/breast_implant_ontology_outer.owl/has_shape -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/MDO/breast_implant_ontology_outer.owl/has_shape">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/MDO/breast_implant_ontology_outer.owl/has_shell -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/MDO/breast_implant_ontology_outer.owl/has_shell">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/MDO/breast_implant_ontology_outer.owl/has_shell_surface -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/MDO/breast_implant_ontology_outer.owl/has_shell_surface">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/MDO/breast_implant_ontology_outer.owl/has_diameter -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/MDO/breast_implant_ontology_outer.owl/has_diameter">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/MDO/breast_implant_ontology_outer.owl/has_fill_volume -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/MDO/breast_implant_ontology_outer.owl/has_fill_volume">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/MDO/breast_implant_ontology_outer.owl/has_height -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/MDO/breast_implant_ontology_outer.owl/has_height">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/MDO/breast_implant_ontology_outer.owl/has_max_diameter -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/MDO/breast_implant_ontology_outer.owl/has_max_diameter">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/MDO/breast_implant_ontology_outer.owl/has_diameter"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/MDO/breast_implant_ontology_outer.owl/has_max_fill_volume -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/MDO/breast_implant_ontology_outer.owl/has_max_fill_volume">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/MDO/breast_implant_ontology_outer.owl/has_fill_volume"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/MDO/breast_implant_ontology_outer.owl/has_max_projection -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/MDO/breast_implant_ontology_outer.owl/has_max_projection">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/MDO/breast_implant_ontology_outer.owl/has_projection"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/MDO/breast_implant_ontology_outer.owl/has_nominal_diameter -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/MDO/breast_implant_ontology_outer.owl/has_nominal_diameter">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/MDO/breast_implant_ontology_outer.owl/has_diameter"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/MDO/breast_implant_ontology_outer.owl/has_nominal_fill_volume -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/MDO/breast_implant_ontology_outer.owl/has_nominal_fill_volume">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/MDO/breast_implant_ontology_outer.owl/has_fill_volume"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/MDO/breast_implant_ontology_outer.owl/has_nominal_projection -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/MDO/breast_implant_ontology_outer.owl/has_nominal_projection">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/MDO/breast_implant_ontology_outer.owl/has_projection"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/MDO/breast_implant_ontology_outer.owl/has_projection -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/MDO/breast_implant_ontology_outer.owl/has_projection">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/MDO/breast_implant_ontology_outer.owl/has_width -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/MDO/breast_implant_ontology_outer.owl/has_width">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/MDO/breast_implant_ontology_outer.owl/breast_implant_brand -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/MDO/breast_implant_ontology_outer.owl/breast_implant_brand"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/MDO/breast_implant_ontology_outer.owl/breast_implant_device -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/MDO/breast_implant_ontology_outer.owl/breast_implant_device">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/MDO/breast_implant_ontology_outer.owl/has_filling"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/MDO/breast_implant_ontology_outer.owl/breast_implant_filling"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/MDO/breast_implant_ontology_outer.owl/has_manufacturer"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/MDO/breast_implant_ontology_outer.owl/breast_implant_manufacturer"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/MDO/breast_implant_ontology_outer.owl/breast_implant_filling -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/MDO/breast_implant_ontology_outer.owl/breast_implant_filling"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/MDO/breast_implant_ontology_outer.owl/breast_implant_manufacturer -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/MDO/breast_implant_ontology_outer.owl/breast_implant_manufacturer"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/MDO/breast_implant_ontology_outer.owl/breast_implant_product_code -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/MDO/breast_implant_ontology_outer.owl/breast_implant_product_code"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/MDO/breast_implant_ontology_outer.owl/breast_implant_profile -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/MDO/breast_implant_ontology_outer.owl/breast_implant_profile"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/MDO/breast_implant_ontology_outer.owl/breast_implant_shape -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/MDO/breast_implant_ontology_outer.owl/breast_implant_shape"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/MDO/breast_implant_ontology_outer.owl/breast_implant_shell -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/MDO/breast_implant_ontology_outer.owl/breast_implant_shell"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/MDO/breast_implant_ontology_outer.owl/breast_implant_shell_surface -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/MDO/breast_implant_ontology_outer.owl/breast_implant_shell_surface"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/MDO/breast_implant_ontology_outer.owl/breast_implant_style -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/MDO/breast_implant_ontology_outer.owl/breast_implant_style"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/MDO/breast_implant_ontology_outer.owl/non-round_shape -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/MDO/breast_implant_ontology_outer.owl/non-round_shape">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/MDO/breast_implant_ontology_outer.owl/breast_implant_shape"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/MDO/breast_implant_ontology_outer.owl/has_shape"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:complementOf rdf:resource="http://purl.obolibrary.org/MDO/breast_implant_ontology_outer.owl/round_shape"/>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/MDO/breast_implant_ontology_outer.owl/round_shape"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/MDO/breast_implant_ontology_outer.owl/round_shape -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/MDO/breast_implant_ontology_outer.owl/round_shape">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/MDO/breast_implant_ontology_outer.owl/breast_implant_shape"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/MDO/breast_implant_ontology_outer.owl/saline_filling -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/MDO/breast_implant_ontology_outer.owl/saline_filling">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/MDO/breast_implant_ontology_outer.owl/breast_implant_filling"/>
+        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/MDO/breast_implant_ontology_outer.owl/silicone_gel_filling"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/MDO/breast_implant_ontology_outer.owl/silicone_gel_filling -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/MDO/breast_implant_ontology_outer.owl/silicone_gel_filling">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/MDO/breast_implant_ontology_outer.owl/breast_implant_filling"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/MDO/breast_implant_ontology_outer.owl/silicone_shell -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/MDO/breast_implant_ontology_outer.owl/silicone_shell">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/MDO/breast_implant_ontology_outer.owl/breast_implant_shell"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/MDO/breast_implant_ontology_outer.owl/smooth_shell_surface -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/MDO/breast_implant_ontology_outer.owl/smooth_shell_surface">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/MDO/breast_implant_ontology_outer.owl/breast_implant_shell_surface"/>
+        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/MDO/breast_implant_ontology_outer.owl/textured_shell_surface"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/MDO/breast_implant_ontology_outer.owl/textured_shell_surface -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/MDO/breast_implant_ontology_outer.owl/textured_shell_surface">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/MDO/breast_implant_ontology_outer.owl/breast_implant_shell_surface"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+

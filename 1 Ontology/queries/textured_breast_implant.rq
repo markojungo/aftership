@@ -1,0 +1,31 @@
+# Textured Breast Implant SPARQL Query
+# Looks for all breast implant devices with textured shell surfaces in BIO
+
+# SPARQL Query
+# Finds all breast implants with textured shell surfaces
+# 
+# RETURNS deviceID superClassLabel classLabel
+
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl:  <http://www.w3.org/2002/07/owl#>
+PREFIX BIO:  <http://www.purl.obolibrary.org/BIO/>
+
+
+SELECT ?superClass ?superClassLabel ?class ?classLabel
+WHERE {
+    ?superClass rdfs:label ?superClassLabel .
+    ?class rdfs:subClassOf ?superClass .
+    ?class rdfs:label ?classLabel .
+
+    ?has_shell_surface rdfs:label "has shell surface" .
+
+    ?textured_shell_surface rdfs:label "textured shell surface" .
+    ?subj rdfs:subClassOf ?textured_shell_surface .
+
+    # ?deviceIDprop rdfs:label "deviceID" .
+
+    ?class rdfs:subClassOf* ?restriction .
+    ?restriction owl:onProperty ?has_shell_surface;
+                 owl:someValuesFrom ?subj .
+    # ?class ?deviceIDprop ?deviceID .
+}

@@ -1,0 +1,28 @@
+# SPARQL Query
+# Finds all silicone gel-filled breast implants
+# 
+# RETURNS deviceID superClassLabel classLabel
+
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl:  <http://www.w3.org/2002/07/owl#>
+PREFIX BIO:  <http://www.purl.obolibrary.org/BIO/>
+
+
+SELECT ?superClass ?superClassLabel ?class ?classLabel
+WHERE {
+    ?superClass rdfs:label ?superClassLabel .
+    ?class rdfs:subClassOf ?superClass .
+    ?class rdfs:label ?classLabel .
+
+    ?has_filling rdfs:label "has filling" .
+
+    ?silicone_gel_filling rdfs:label "silicone gel filling" .
+    ?subj rdfs:subClassOf ?silicone_gel_filling .
+    
+    # ?deviceIDprop rdfs:label "deviceID" .
+
+    ?class rdfs:subClassOf ?restriction .
+    ?restriction owl:onProperty ?has_filling;
+                 owl:someValuesFrom ?subj .
+    # ?class ?deviceIDprop ?deviceID .
+}

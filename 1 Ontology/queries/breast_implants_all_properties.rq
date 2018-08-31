@@ -1,0 +1,79 @@
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl:  <http://www.w3.org/2002/07/owl#>
+PREFIX BIO:  <http://www.purl.obolibrary.org/BIO/>
+
+
+SELECT ?deviceLabel
+       ?manufacturer
+       ?profile 
+       ?shellSurface
+       ?PMANumber 
+       ?PMASupplement 
+       ?filling
+       ?catalogNumber
+       ?deviceID
+       ?PMALink
+WHERE {
+    ?breastImplantDevice rdfs:label "breast implant device" .
+
+    ?device rdfs:label ?deviceLabel .
+    ?device rdfs:subClassOf* ?breastImplantDevice .
+
+    # Filter all intermediate classes
+    filter not exists {
+        ?subtype rdfs:subClassOf ?device .
+    }
+
+    # Object Properties
+    ?hasManufacturer rdfs:label "has manufacturer" .
+    ?hasProfile rdfs:label "has profile" .
+    ?hasShellSurface rdfs:label "has shell surface" .
+    ?isSubjectDeviceOf rdfs:label "is subject device of" .
+    ?isMentionedIn rdfs:label "is mentioned in" .
+    ?hasFilling rdfs:label "has filling" .
+
+    # Annotation Properties
+    ?hasCatalogNumber rdfs:label "catalogNumber" .
+    ?hasDeviceID rdfs:label "deviceID" .
+    ?hasPMALink rdfs:label "pmaLink" .
+
+    ?device rdfs:subClassOf* ?manufacturerRestriction;
+            rdfs:subClassOf* ?profileRestrition;
+            rdfs:subClassOf* ?shellSurfaceRestriction;
+            rdfs:subClassOf* ?subjectDeviceRestriction;
+            rdfs:subClassOf* ?mentionedInRestriction;
+            rdfs:subClassOf* ?fillingRestriction .
+
+    ?manufacturerRestriction owl:onProperty ?hasManufacturer;
+                 owl:someValuesFrom ?manufacturerIRI .
+    ?manufacturerIRI rdfs:label ?manufacturer .
+
+    ?profileRestrition owl:onProperty ?hasProfile;
+                 owl:someValuesFrom ?profileIRI .
+    ?profileIRI rdfs:label ?profile .
+
+    # # ?shellRestriction owl:onProperty  ?hasShell;
+    # #                   owl:someValuesFrom ?shellIRI .
+    # # ?shellIRI rdfs:label ?shell .
+
+    # ?shellSurfaceRestriction owl:onProperty ?hasShellSurface;
+    #                   owl:someValuesFrom ?shellSurfaceIRI .
+    # ?shellSurfaceIRI rdfs:label ?shellSurface .
+
+    # ?subjectDeviceRestriction owl:onProperty ?isSubjectDeviceOf;
+    #                   owl:someValuesFrom ?PMANumberIRI .
+    # ?PMANumberIRI rdfs:label ?PMANumber .
+
+    # ?mentionedInRestriction owl:onProperty ?isMentionedIn;
+    #                   owl:someValuesFrom ?PMASupplementIRI .
+    # ?PMASupplementIRI rdfs:label ?PMASupplement .
+
+    # # ?shapeRestriction owl:onProperty ?hasShape;
+    # #                   owl:someValuesFrom ?shapeIRI .
+    # # ?shapeIRI rdfs:label ?shape .
+
+    # ?fillingRestriction owl:onProperty ?hasFilling;
+    #                   owl:someValuesFrom ?fillingIRI .
+    # ?fillingIRI rdfs:label ?filling .
+
+}

@@ -1,0 +1,2739 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://purl.obolibrary.org/MDO/breast_implants_ontology.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://purl.obolibrary.org/MDO/breast_implants_ontology.owl">
+    <Prefix name="" IRI="http://purl.obolibrary.org/MDO/breast_implants_ontology.owl"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000103"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000115"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000127"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000139"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000006"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000046"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000019"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000061"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000170"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000182"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000194"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000073"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000097"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000102"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000114"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000005"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000126"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000138"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000029"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="/MDO_0000000"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000072"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000181"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000060"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000193"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000096"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000101"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000113"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000125"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000137"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000004"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000149"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000028"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000180"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000192"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000071"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000095"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000100"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000112"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000008"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000003"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000124"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000027"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000136"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000148"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000039"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000047"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000070"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000191"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000094"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000082"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000111"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000123"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000009"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000135"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000002"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000038"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000147"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000091"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000159"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000026"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000081"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000190"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000093"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000110"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000001"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000122"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000025"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000134"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000146"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000092"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000049"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000158"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000037"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000020"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000080"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000121"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000000"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000133"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000036"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000145"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000157"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000024"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000169"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000048"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000021"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000083"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000120"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000132"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000023"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#prefLabel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000144"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000156"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000035"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000168"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000059"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000090"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000131"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000034"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000143"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000155"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000022"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000167"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000058"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000179"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000086"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000085"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000130"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000142"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000154"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000166"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000033"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000069"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000178"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000057"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000084"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000045"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000141"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000032"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000153"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000165"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000056"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000177"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000044"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000189"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000068"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000109"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000140"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000010"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000152"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000043"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000164"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000031"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000067"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000176"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000055"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000188"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000079"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000108"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000011"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000030"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000151"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000054"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000163"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000175"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000042"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000187"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000078"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000066"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000107"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000119"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000012"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000041"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000150"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000162"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000065"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000174"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000186"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000053"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000089"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000077"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000106"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000118"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000013"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000052"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000161"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000040"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000173"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000185"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000076"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000064"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000088"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000015"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000105"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000117"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000129"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000017"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000014"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000160"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000172"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000063"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000184"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000051"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000087"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000196"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000075"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000099"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000104"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000116"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000007"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000016"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000128"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000018"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000050"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000171"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000074"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000183"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000062"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000195"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000098"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000027"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000006"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000013"/>
+                <ObjectComplementOf>
+                    <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000026"/>
+                </ObjectComplementOf>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000036"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000001"/>
+            <ObjectUnionOf>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000009"/>
+                    <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000034"/>
+                </ObjectSomeValuesFrom>
+                <ObjectHasValue>
+                    <ObjectProperty IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000045"/>
+                    <NamedIndividual IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000091"/>
+                </ObjectHasValue>
+            </ObjectUnionOf>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000037"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000001"/>
+            <ObjectUnionOf>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000009"/>
+                    <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000035"/>
+                </ObjectSomeValuesFrom>
+                <ObjectHasValue>
+                    <ObjectProperty IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000045"/>
+                    <NamedIndividual IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000092"/>
+                </ObjectHasValue>
+            </ObjectUnionOf>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000038"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000001"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000014"/>
+                <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000022"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000039"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000001"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000014"/>
+                <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000023"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000044"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000001"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000015"/>
+                <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000041"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000063"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000037"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000009"/>
+                <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000042"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000082"/>
+        <ObjectOneOf>
+            <NamedIndividual IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000092"/>
+            <NamedIndividual IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000091"/>
+        </ObjectOneOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000093"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000001"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000015"/>
+                <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000048"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000094"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000001"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000015"/>
+                <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000049"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000098"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000001"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000015"/>
+                <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000051"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000022"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000005"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000023"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000005"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000024"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000023"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000024"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000015"/>
+            <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000049"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000025"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000023"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000025"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000015"/>
+            <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000041"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000026"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000006"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000028"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000027"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000028"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000015"/>
+            <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000041"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000029"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000027"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000029"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000015"/>
+            <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000049"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000030"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000007"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000031"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000007"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000032"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000033"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000007"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000034"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000035"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000040"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000004"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000041"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000003"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000042"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000035"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000043"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000048"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000003"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000049"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000003"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000051"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000003"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000052"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000044"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000052"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000009"/>
+            <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000035"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000052"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000015"/>
+            <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000041"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000053"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000050"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000054"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000050"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000055"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000098"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000055"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000009"/>
+            <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000060"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000055"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000015"/>
+            <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000051"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000056"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000044"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000056"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000009"/>
+            <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000061"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000056"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000015"/>
+            <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000041"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000057"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000050"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000058"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000050"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000059"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000050"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000060"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000035"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000061"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000042"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000062"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000044"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000064"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000094"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000065"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000094"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000066"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000094"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000067"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000094"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000068"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000050"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000069"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000094"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000070"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000094"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000071"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000094"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000072"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000094"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000073"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000044"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000073"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000081"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000074"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000044"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000074"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000081"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000075"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000042"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000075"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000015"/>
+            <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000049"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000076"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000035"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000076"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000015"/>
+            <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000049"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000077"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000030"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000078"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000033"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000079"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000033"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000080"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000027"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000080"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000015"/>
+            <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000049"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000081"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000044"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000087"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000007"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000088"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000027"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000088"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000015"/>
+            <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000051"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000089"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000027"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000089"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000015"/>
+            <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000051"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000090"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000027"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000090"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000015"/>
+            <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000051"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000095"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000094"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000096"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000094"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000097"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000094"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000099"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000093"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000100"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000044"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000101"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000094"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000102"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000050"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000103"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000050"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000104"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000050"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000105"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000050"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000106"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000050"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000107"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000050"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000108"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000050"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000109"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000050"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000110"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000050"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000111"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000050"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000112"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000050"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000113"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000050"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000114"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000050"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000115"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000050"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000116"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000050"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000117"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000050"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000118"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000050"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000119"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000050"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000120"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000050"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000121"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000050"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000122"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000050"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000123"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000050"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000124"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000050"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000125"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000050"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000126"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000050"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000127"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000050"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000128"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000050"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000129"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000050"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000130"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000050"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000131"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000050"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000132"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000050"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000133"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000050"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000134"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000050"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000135"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000050"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000136"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000050"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000137"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000050"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000138"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000050"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000139"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000050"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000140"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000050"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000141"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000050"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000142"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000050"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000143"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000050"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000144"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000050"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000145"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000050"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000146"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000050"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000147"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000050"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000148"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000050"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000149"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000050"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000150"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000050"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000151"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000050"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000152"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000050"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000153"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000050"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000154"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000050"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000155"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000050"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000156"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000050"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000157"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000050"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000158"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000050"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000159"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000050"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000160"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000050"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000161"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000050"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000162"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000050"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000163"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000050"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000164"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000050"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000165"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000050"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000166"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000050"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000167"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000050"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000168"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000050"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000169"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000050"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000170"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000050"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000171"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000050"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000172"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000050"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000173"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000050"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000174"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000050"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000175"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000050"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000176"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000050"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000177"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000050"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000178"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000050"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000179"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000050"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000180"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000050"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000181"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000050"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000182"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000050"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000183"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000050"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000184"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000050"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000185"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000050"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000186"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000050"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000187"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000050"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000188"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000050"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000189"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000050"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000190"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000050"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000191"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000050"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000192"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000050"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000193"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000050"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000194"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000050"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000195"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000050"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000196"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000050"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000000"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000001"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000002"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000003"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000004"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000005"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000006"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000007"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000050"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000022"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000023"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000026"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000027"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000028"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000029"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000080"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000088"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000089"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000090"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000030"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000031"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000033"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000032"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000043"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000034"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000035"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000036"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000037"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000038"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000039"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000044"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000093"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000094"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000098"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000052"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000056"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000062"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000073"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000074"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000053"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000054"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000057"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000058"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000059"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000068"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000102"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000103"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000104"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000105"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000106"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000107"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000108"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000109"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000110"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000111"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000112"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000113"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000114"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000115"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000116"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000117"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000118"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000119"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000120"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000121"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000122"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000123"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000124"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000125"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000126"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000127"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000128"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000129"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000130"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000131"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000132"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000133"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000134"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000135"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000136"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000137"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000138"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000139"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000140"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000141"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000142"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000143"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000144"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000145"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000146"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000147"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000148"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000149"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000150"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000151"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000152"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000153"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000154"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000155"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000156"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000157"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000158"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000159"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000160"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000161"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000162"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000163"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000164"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000165"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000166"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000167"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000168"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000169"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000170"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000171"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000172"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000173"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000174"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000175"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000176"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000177"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000178"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000179"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000180"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000181"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000182"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000183"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000184"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000185"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000186"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000187"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000188"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000189"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000190"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000191"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000192"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000193"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000194"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000195"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000196"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000064"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000065"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000066"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000067"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000069"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000070"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000071"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000072"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000095"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000096"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000097"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000073"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000074"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000078"/>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000079"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000082"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000091"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000082"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000092"/>
+    </ClassAssertion>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000091"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000092"/>
+    </DifferentIndividuals>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000008"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000009"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000008"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000010"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000008"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000011"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000012"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000011"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000013"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000011"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000014"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000011"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000015"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000016"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000009"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000012"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000015"/>
+    </FunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000015"/>
+    </InverseFunctionalObjectProperty>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000017"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000018"/>
+        <DataProperty IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000017"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000019"/>
+        <DataProperty IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000017"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000020"/>
+        <DataProperty IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000017"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000021"/>
+        <DataProperty IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000017"/>
+    </SubDataPropertyOf>
+    <FunctionalDataProperty>
+        <DataProperty IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000018"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000019"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000020"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000021"/>
+    </FunctionalDataProperty>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000000</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">breast implant brand</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000001</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">breast implant device</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000002</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">breast implant filling</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000003</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">breast implant manufacturer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000004</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">breast implant shell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000005</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">breast implant shell surface</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000006</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">breast implant shape</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000007</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">breast implant profile</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000008</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">has part</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000009</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">has filling</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000010</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">has shell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000011</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">has quality</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000012</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">has profile</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000013</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">has shape</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000014</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">has shell surface</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000015</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">has manufacturer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000016</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">is manufacturer of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000017</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">has value</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000018</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">has total fill volume</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000019</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">has height</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000020</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">has width</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000021</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">has projection</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000022</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">smooth shell surface</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000023</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">textured shell surface</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000024</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">MENTOR SILTEX shell surface</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000025</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">NATRELLE BIOCELL shell surface</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000026</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">round shape</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000027</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">non-round shape</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000028</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">NATRELLE Anatomical shape</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000029</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">MENTOR Contour Profile shape</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000030</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">low profile</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000031</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">moderate profile</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000032</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Mentor MemoryGel brand</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000033</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">high profile</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000034</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">saline filling</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000035</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">silicone filling</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000036</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">saline filled device</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000037</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">silicone filled device</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000038</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">smooth device</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000039</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">textured device</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000040</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">silicone shell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000041</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Allergan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000042</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">highly cohesive silicone filling</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000043</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Mentor Memory Shape brand</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000044</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Allergan device</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000045</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">has product code</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000046</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">altTerm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000047</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">catalogueNumber</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000048</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Ideal Implant</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000049</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Mentor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000050</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">breast implant style</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000051</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Sientra</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000052</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">NATRELLE Silicone-Filled device</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000053</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">354M</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000054</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">350</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000055</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">SIENTRA Silicone Gel device</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000056</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">NATRELLE 410 Highly Cohesive Anatomically Shaped Silicone-Filled device</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000057</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">354</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000058</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">468</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000059</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">363LF</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000060</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">SIENTRA Silicone Gel filling</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000061</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">NATRELLE 410 Highly Cohesive filling</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000062</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">NATRELLE Saline-Filled device</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000063</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">highly cohesive silicone device</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000064</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">MENTOR SILTEX Round SPECTRUM device</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000065</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">MENTOR Smooth Round SPECTRUM device</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000066</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">MENTOR SILTEX CONTOUR PROFILE High device</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000067</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">MENTOR SILTEX CONTOUR PROFILE Moderate device</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000068</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">168</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000069</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">MENTOR Smooth Round Moderate Plus Profile device</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000070</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">MENTOR Smooth Round Moderate Profile device</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000071</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">MENTOR Smooth Round High Profile device</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000072</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">MENTOR SILTEX CONTOUR PROFILE SPECTRUM device</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000073</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">NATRELLE Inspira SoftTouch device</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000074</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">NATRELLE Inspira Cohesive device</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000075</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">MENTOR MemoryShape filling</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000076</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">MENTOR MemoryGel filling</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000077</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">NATRELLE Low Plus</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000078</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">NATRELLE Full</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000079</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">NATRELLE Extra Full</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000080</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">MENTOR teardrop shape</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000081</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">NATRELLE Inspira device</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000082</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">breast implant product code</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000083</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">deviceID</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000084</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">primaryDI</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000085</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">productCode</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000086</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">versionModelNumber</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000087</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">moderate plus profile</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000088</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">SIENTRA Classic Base shape</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000089</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">SIENTRA Round Base shape</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000090</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">SIENTRA Oval Base shape</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000091</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">FWM</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000092</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">FTR</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000093</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Ideal Implant device</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000094</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Mentor device</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000095</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">MENTOR MemoryGel device</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000096</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">MENTOR MemoryGel Xtra device</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000097</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">MENTOR MemoryShape device</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000098</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Sientra device</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000099</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Ideal Saline-Filled device</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000100</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Allergan Medical RTV Saline-Filled device</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000101</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">MENTOR Saline-Filled and SPECTRUM device</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000102</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">163</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000103</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">68LP</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000104</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">68HP</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000105</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">68</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000106</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">335</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000107</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">300</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000108</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">675</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000109</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">270</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000110</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">475</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000111</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">440</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000112</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">555</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000113</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">370</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000114</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">635</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000115</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">595</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000116</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">515</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000117</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">405</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000118</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">240</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000119</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">210</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000120</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">THPX</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000121</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">TMPX</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000122</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">SHPX</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000123</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">SMPX</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000124</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">334</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000125</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">350BC</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000126</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">354MC</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000127</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">350MC</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000128</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">20721MP</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000129</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">20721HP</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000130</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">20621HP</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000131</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">10621MP</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000132</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">10621HP</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000133</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">10721MP</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000134</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">10721HP</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000135</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">20676HP</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000136</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">20646MP</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000137</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">20676E</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000138</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">20646RB</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000139</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">20645MP</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000140</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">20645HP</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000141</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">20645LP</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000142</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">20621MP</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000143</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">20610LP</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000144</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">10610LP</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000145</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">10521HP</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000146</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">10512MP</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000147</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">TSX</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000148</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">TSF</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000149</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">TSM</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000150</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">TSLP</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000151</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">TSL</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000152</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">SSX</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000153</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">SSF</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000154</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">SSM</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000155</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">SSLP</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000156</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">SSL</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000157</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">TCX</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000158</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">TCF</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000159</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">TCM</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000160</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">TCLP</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000161</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">TCL</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000162</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">SCX</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000163</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">SCF</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000164</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">SCM</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000165</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">SCLP</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000166</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">SCL</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000167</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">TRX</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000168</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">TRF</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000169</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">TRM</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000170</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">TRLP</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000171</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">TRL</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000172</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">SRX</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000173</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">SRF</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000174</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">SRM</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000175</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">SRLP</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000176</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">SRL</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000177</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">MX</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000178</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">MM</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000179</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">ML</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000180</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">MF</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000181</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">LX</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000182</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">LL</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000183</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">LF</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000184</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">FX</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000185</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">FM</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000186</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">FL</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000187</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">FF</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000188</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">120</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000189</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">115</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000190</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">110</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000191</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">45</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000192</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">40</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000193</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">20</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000194</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">15</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000195</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">10</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/MD/breast_implants_ontology.owl/MDO_0000196</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">LM</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/MDO_0000000</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">PMA</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
